@@ -1,0 +1,36 @@
+.sort-bar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sort-bar label {
+    font-size: 16px;
+    margin-right: 10px;
+    line-height: 34px; 
+}
+
+.sort-bar select, 
+.sort-bar input[type="submit"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sort-bar input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.sort-bar input[type="submit"]:hover {
+    background-color: #2980b9;
+}

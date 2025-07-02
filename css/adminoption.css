@@ -1,0 +1,6 @@
+.admin_option{
+    display: flex;
+}
+.admin_option button{
+    padding: 10px 15px;
+}

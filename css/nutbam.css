@@ -1,0 +1,27 @@
+a.dangxuat{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.userInfo{
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+}
+.hanh_dong a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.hanh_dong .xoa {
+    background-color: red;
+}

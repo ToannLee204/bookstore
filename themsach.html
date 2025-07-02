@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thêm sách</title>
+        <link rel="stylesheet" href="./css/styleform.css">
+    </head>
+    <body>   
+        <form action="themsach.php" method="post">
+            <h2>Điền thông tin sách</h2>
+            Mã sách : <input type="number" name="ma_sach" class="info" required><br>
+            Tên sách : <input type="text" name="ten_sach"class="info" required><br>
+            Tác giả : <input type="text" name="tac_gia"class="info" required><br>
+            Giá : <input type="number" name="gia"class="info" required><br>
+            Số lượng tồn : <input type="number" name="so_luong_ton" class="info" required><br>
+            Ảnh bìa : <input type="text" name="anh_bia" class="info" required><br>
+            Thể loại : <input type="text" name="the_loai"class="info" required><br>
+            <input type="submit" value="Thêm" class="btn">
+        </form>
+    </body>
+</html>

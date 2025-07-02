@@ -1,0 +1,50 @@
+body {
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table td,table th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    text-align: start;
+}
+
+table th {
+    width: 150px;
+}
+
+.hanh_dong {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hanh_dong a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.hanh_dong .xoa {
+    background-color: red;
+}

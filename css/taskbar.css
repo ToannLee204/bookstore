@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+  
+.logo a {
+    text-decoration: none;
+    color: #333;
+}
+  
+.logo a:hover {
+    color: #666;
+}
+  
+header form {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+header input[type="text"] {
+    width: 500px;
+    height: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+  
+header input[type="submit"] {
+    width: 80px;
+    height: 35px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+  
+header input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+  
+header a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+}
+
+  
+header a:hover {
+    color: #666;
+}
+header .user a:last-child{
+    margin-right: 20px;
+}
+
+
+

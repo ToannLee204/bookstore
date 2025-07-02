@@ -1,0 +1,98 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #555;
+    font-size: 16px;
+}
+
+table td {
+    font-size: 16px;
+}
+
+table td a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table td a:hover {
+    color: #c0392b;
+}
+
+table td, table th {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c0392b;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.gio-hang-total {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.gio-hang-total p {
+
+    margin: 10px 0;
+}
+
+.gio-hang-total span {
+    color: #27ae60;
+    font-size: 22px;
+}
